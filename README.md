@@ -2,17 +2,27 @@
 
 ## Install
 This project requires Python 3.x and the following libraries installed:
-NumPy
+
 Pandas
+
 matplotlib
+
 os
+
 pickle
+
 librosa
+
 pydub
+
 soundfile
+
 io
+
 Keras
+
 Tensorflow
+
 We got access to all of that by using Anaconda.
 ## Data Collecting & Preprocessing.
 We started by collecting Arabic music data for about 11 different composers, totaling approximately 256 files ranging from 3 to 55 minutes each. After collecting this vast amount of data, we began our first task, which involved preprocessing the data through a pipeline of tasks:
