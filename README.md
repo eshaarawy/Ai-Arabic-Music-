@@ -1,4 +1,30 @@
-# Data Collecting &Preprocessing.
+# Deep Learning Project 
+
+## Install
+This project requires Python 3.x and the following libraries installed:
+
+Pandas
+
+matplotlib
+
+os
+
+pickle
+
+librosa
+
+pydub
+
+soundfile
+
+io
+
+Keras
+
+Tensorflow
+
+We got access to all of that by using Anaconda.
+## Data Collecting & Preprocessing.
 We started by collecting Arabic music data for about 11 different composers, totaling approximately 256 files ranging from 3 to 55 minutes each. After collecting this vast amount of data, we began our first task, which involved preprocessing the data through a pipeline of tasks:
 
 1- Segment the large files.
@@ -15,7 +41,7 @@ We started by collecting Arabic music data for about 11 different composers, tot
 
 7- Plot the spectrograms to observe the trends.
 
-# Classification task
+## Classification task
 
 For the classification task, we employed several approaches to improve the accuracy of our model. 
 
@@ -29,7 +55,7 @@ For the classification task, we employed several approaches to improve the accur
 
 5- Finally, in the fifth experiment, we used the same approach as in experiment two but with an increase in the augmented data. This resulted in a significant improvement in accuracy, with a test accuracy of 0.7315903902053833.
 
-# Generation Task
+## Generation Task
 1- Our data preprocessing involved a well-defined pipeline, starting with segmenting the audio files into 5.94-second intervals, padding if necessary, and extracting log spectrograms for model training. We then applied min-max normalization for post-processing and saved the preprocessed data in the specified paths. As an additional step, we also extracted log spectrogram images to observe music trends in terms of frequency and time. In total, we preprocessed 75 WAV files, resulting in 8756 segments.
 
 2- To generate new music data from our classical music dataset, we utilized a VAE architecture comprising an Encoder, Bottleneck, and Decoder. Both the Encoder and Decoder consisted of 5 convolutional layers, resulting in millions of parameters for the model. .......to be completed soon 
