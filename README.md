@@ -58,4 +58,12 @@ For the classification task, we employed several approaches to improve the accur
 ## Generation Task
 1- Our data preprocessing involved a well-defined pipeline, starting with segmenting the audio files into 5.94-second intervals, padding if necessary, and extracting log spectrograms for model training. We then applied min-max normalization for post-processing and saved the preprocessed data in the specified paths. As an additional step, we also extracted log spectrogram images to observe music trends in terms of frequency and time. In total, we preprocessed 75 WAV files, resulting in 8756 segments.
 
-2- To generate new music data from our classical music dataset, we utilized a VAE architecture comprising an Encoder, Bottleneck, and Decoder. Both the Encoder and Decoder consisted of 5 convolutional layers, resulting in millions of parameters for the model. .......to be completed soon 
+2- In order to generate new music data from our classical music dataset, we employed a Variational Autoencoder (VAE) architecture. The VAE consisted of three main components: an Encoder, a Bottleneck, and a Decoder.
+
+The Encoder and Decoder were constructed using five convolutional layers each, resulting in a substantial number of model parameters. To train the model, we utilized a two-step process. We initially set the learning rate to 0.00005 and trained the model for approximately 90 epochs. Afterwards, we adjusted the learning rate to 0.00009 and continued training for the remaining epochs.
+
+The results we obtained from the trained VAE were highly promising. To evaluate the quality of the generated music, we conducted a subjective assessment by having ten individuals listen to both the original music samples and the generated samples. The feedback we received from the listeners indicated that the generated samples closely resembled the original ones.
+
+Furthermore, we assessed the reconstruction accuracy and the Kullback-Leibler (KL) divergence loss, both of which confirmed the high quality of the generated music.
+
+For more comprehensive information about our results, the architecture of the model, and the post-processing techniques applied, please refer to the files provided in the repository.
