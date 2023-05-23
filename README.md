@@ -64,6 +64,9 @@ The Encoder and Decoder were constructed using five convolutional layers each, r
 
 The results we obtained from the trained VAE were highly promising. To evaluate the quality of the generated music, we conducted a subjective assessment by having ten individuals listen to both the original music samples and the generated samples. The feedback we received from the listeners indicated that the generated samples closely resembled the original ones.
 
+![WhatsApp Image 2023-05-07 at 7 59 19 PM](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/3e233cd0-ed75-4876-a401-6b43dd4d0dbe)
+
+
 Furthermore, we assessed the reconstruction accuracy and the Kullback-Leibler (KL) divergence loss, both of which confirmed the high quality of the generated music.
 
 For more comprehensive information about our results, the architecture of the model, and the post-processing techniques applied, please refer to the files provided in the repository.
