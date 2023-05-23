@@ -65,19 +65,18 @@ The Encoder and Decoder were constructed using five convolutional layers each, r
 The results we obtained from the trained VAE were highly promising. To evaluate the quality of the generated music, we conducted a subjective assessment by having ten individuals listen to both the original music samples and the generated samples. The feedback we received from the listeners indicated that the generated samples closely resembled the original ones.
 
 Furthermore, we assessed the reconstruction accuracy and the Kullback-Leibler (KL) divergence loss, both of which confirmed the high quality of the generated music.
-### The loss when starting fitting
+### The loss when starting fitting:
 ![res_1](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/cc262539-7ad7-40a9-8fad-9c6b34d88a53)
-### The promising results after fitting the model given 90 epochs 
+### The promising results after fitting the model given 90 epochs:
 ![Capture](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/11585f54-d71d-4e9a-9b32-0ba28ebc6a72)
 
 For more comprehensive information about our results, the architecture of the model, and the post-processing techniques applied, please refer to the files provided in the repository.
 
 You could find below two images:
 
-1- Output: Generated features in the form of spectrogram imag(Generation Model
-
-2- Input : original extracted feature in the form of spectrogram image (Generation Model)
-
+### Output: Generated features in the form of spectrogram imag(Generation Model
 ![WhatsApp Image 2023-05-07 at 7 59 19 PM](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/3e233cd0-ed75-4876-a401-6b43dd4d0dbe)
+
+### Input : original extracted feature in the form of spectrogram image (Generation Model)
 ![WhatsApp Image 2023-05-07 at 7 59 51 PM](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/14366ebd-e46f-4886-bb5e-9b67a0aff822)
 
