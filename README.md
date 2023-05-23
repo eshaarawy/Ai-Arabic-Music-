@@ -55,6 +55,9 @@ For the classification task, we employed several approaches to improve the accur
 
 5- Finally, in the fifth experiment, we used the same approach as in experiment two but with an increase in the augmented data. This resulted in a significant improvement in accuracy, with a test accuracy of 0.7315903902053833.
 
+### Our best experiment results " Experiment 5 Confusion Matrix ":
+![WhatsApp Image 2023-05-23 at 2 48 33 PM](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/706762ba-7bb0-4bd6-99e5-7dcbb156456e)
+
 ## Generation Task
 1- Our data preprocessing involved a well-defined pipeline, starting with segmenting the audio files into 5.94-second intervals, padding if necessary, and extracting log spectrograms for model training. We then applied min-max normalization for post-processing and saved the preprocessed data in the specified paths. As an additional step, we also extracted log spectrogram images to observe music trends in terms of frequency and time. In total, we preprocessed 75 WAV files, resulting in 8756 segments.
 
