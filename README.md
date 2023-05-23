@@ -67,8 +67,9 @@ The results we obtained from the trained VAE were highly promising. To evaluate 
 Furthermore, we assessed the reconstruction accuracy and the Kullback-Leibler (KL) divergence loss, both of which confirmed the high quality of the generated music.
 
 For more comprehensive information about our results, the architecture of the model, and the post-processing techniques applied, please refer to the files provided in the repository.
-
-
+You could find below two images:
+1- Output: Generated features in the form of spectrogram imag(Generation Model
+2- Input : original extracted feature in the form of spectrogram image (Generation Model)
 ![WhatsApp Image 2023-05-07 at 7 59 19 PM](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/3e233cd0-ed75-4876-a401-6b43dd4d0dbe)
 ![WhatsApp Image 2023-05-07 at 7 59 51 PM](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/14366ebd-e46f-4886-bb5e-9b67a0aff822)
 
