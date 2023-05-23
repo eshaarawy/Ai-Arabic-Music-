@@ -1,0 +1,4 @@
+To check the experiments of classification model: Access the classification task folder
+To check the preprocesisng/model/postprocessing  for the generation model : Access the generation task folder 
+To check the the generation result audios : Access the generation results folder
+The project details are provided through the Read.me.
