@@ -24,6 +24,14 @@ Keras
 Tensorflow
 
 We got access to all of that by using Anaconda.
+
+## Data Set Overview
+Our classification and generation models were trained on a diverse data set of Arabic music. The data set was carefully curated to include a variety of genres, including classical, modern, piano, and oud songs, to ensure the model was exposed to a wide range of musical styles. The classical category consisted of compositions by renowned artists such as Mohamed Abdelwahab, Reyad ElSonbaty, and Balegh Hamdy. The modern category included songs by popular singers like Sherin Abd El-Wahab, Tarek Madkour, Mohamed Foad, Hesham Abbas, Fairouz, Waleed Saad, Nasir shama, Mohamed Rahem, and others. Additionally, the data set included piano compositions by Omar Khorshed and some oud songs. The model was also trained on compositions by Hamza Namira and Omar Khairat, two highly respected contemporary musicians.
+
+To ensure consistency in the data set, all songs were preprocessed to a uniform length accordance to the model requirement. This allowed for a fair comparison between different genres and styles, as well as ensuring that the model was exposed to enough musical material to learn from. 
+
+Overall, the data set used for training the music generation model was carefully selected to provide a diverse set of musical styles and genres while maintaining consistency in length. The data set and preprocessing methods used in this study can serve as a foundation for future music generation research in Arabic music and related fields.
+
 ## Data Collecting & Preprocessing.
 We started by collecting Arabic music data for about 11 different composers, totaling approximately 256 files ranging from 3 to 55 minutes each. After collecting this vast amount of data, we began our first task, which involved preprocessing the data through a pipeline of tasks:
 
