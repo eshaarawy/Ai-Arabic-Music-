@@ -53,15 +53,18 @@ We started by collecting Arabic music data for about 11 different composers, tot
 
 For the classification task, we employed several approaches to improve the accuracy of our model. 
 
-1- In the first experiment, we used non-evenly distributed data with MFCC as input and a model architecture consisting of two con2d layers to classify the data into 11 categories. This experiment resulted in a test accuracy of 0.5489017367362976.
+1- In the first experiment, we used non-evenly distributed data with MFCC as input and a model architecture consisting of two con2d layers to classify the data into 11 categories. This experiment resulted in a test accuracy of 0.5489.
 
-2- In the second experiment, we modified the architecture used in the first experiment to achieve better validation and testing accuracy. Additionally, we used evenly distributed data in this experiment, which resulted in a higher test accuracy of 0.5595895648002625.
+2- In the second experiment, we modified the architecture used in the first experiment to achieve better validation and testing accuracy. Additionally, we used evenly distributed data in this experiment, which resulted in a higher test accuracy of 0.5595.
 
-3- In the third experiment, we changed the form of the input to mel spectrograms, which are capable of representing more features, thereby aiding the model in learning and leading to improved results. This experiment resulted in a test accuracy of 0.6252723336219788.
 
-4- To further improve our model's accuracy, we used data augmentation techniques in the fourth experiment to increase the size of our data and repeated experiment three. This led to a better accuracy, with a test accuracy of 0.6758170127868652.
+3- In the third experiment, we changed the form of the input to mel spectrograms, which are capable of representing more features, thereby aiding the model in learning and leading to improved results. This experiment resulted in a test accuracy of 0.7015. However, the validation accuracy was lower at 0.5925.
 
-5- Finally, in the fifth experiment, we used the same approach as in experiment two but with an increase in the augmented data. This resulted in a significant improvement in accuracy, with a test accuracy of 0.7315903902053833.
+4- To further improve our model's accuracy, we used data augmentation techniques in the fourth experiment to increase the size of our data and repeated experiment three. This led to a better accuracy, with a test accuracy of 0.7316.
+
+
+5- Finally, in the fifth experiment, we used the same approach as in experiment two but with an increase in the augmented data. This resulted in a significant improvement in accuracy, with a test accuracy of 0.8143.
+
 
 ### Our best experiment results " Experiment 5 Confusion Matrix ":
 ![WhatsApp Image 2023-05-23 at 2 48 33 PM](https://github.com/eshaarawy/Ai-Arabic-Music-/assets/109802881/706762ba-7bb0-4bd6-99e5-7dcbb156456e)
